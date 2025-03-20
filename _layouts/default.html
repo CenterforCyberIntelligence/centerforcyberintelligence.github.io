@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% raw %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.scss?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          
+          <!-- Cybersecurity visual element -->
+          <div class="cyber-badge">
+            <div class="cyber-shield">
+              <svg viewBox="0 0 100 100" width="64" height="64">
+                <path fill="#4a7dbd" d="M50,10 L10,30 L10,60 C10,70 20,85 50,95 C80,85 90,70 90,60 L90,30 L50,10 Z" />
+                <path fill="#0c1221" d="M50,20 L20,35 L20,55 C20,65 30,75 50,85 C70,75 80,65 80,55 L80,35 L50,20 Z" />
+                <path fill="#4a7dbd" d="M50,40 L40,45 L40,55 L50,60 L60,55 L60,45 L50,40 Z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        
+        <nav id="main-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/framework">Framework</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/join">Join Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section id="main-content">
+        {{ content }}
+      </section>
+      
+      <footer>
+        <p>© {{ site.time | date: '%Y' }} Center for Cyber Intelligence. All rights reserved.</p>
+        <p class="cyber-text">Empowering Intelligence-Driven Security</p>
+      </footer>
+    </div>
+    
+    <!-- Security-themed animation effects -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add scanning effect to header
+        const header = document.querySelector('header');
+        setInterval(function() {
+          const scanLine = document.createElement('div');
+          scanLine.classList.add('scan-line');
+          header.appendChild(scanLine);
+          
+          setTimeout(function() {
+            scanLine.remove();
+          }, 1500);
+        }, 4000);
+        
+        // Highlight framework levels on scroll
+        const frameworkLevels = document.querySelectorAll('.level');
+        if (frameworkLevels.length > 0) {
+          window.addEventListener('scroll', function() {
+            frameworkLevels.forEach(function(level) {
+              if (isElementInViewport(level)) {
+                level.classList.add('active');
+              }
+            });
+          });
+        }
+        
+        function isElementInViewport(el) {
+          const rect = el.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
+{% endraw %}

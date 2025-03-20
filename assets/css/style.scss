@@ -1,0 +1,162 @@
+@import "{{ site.theme }}";
+
+/* Enhanced cybersecurity theme with dark blues */
+body {
+  background: #0c1221;
+  color: #e0e0e0;
+}
+
+#header {
+  background: #060a14;
+  border-bottom: 1px solid #1e3a5f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4a7dbd;
+}
+
+a {
+  color: #3d85c6;
+  &:hover {
+    color: #66a3ff;
+  }
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+/* Custom cybersecurity elements */
+.highlight {
+  color: #3d85c6;
+  font-weight: bold;
+}
+
+.cyber-container {
+  border: 1px solid #1e3a5f;
+  background: rgba(14, 24, 45, 0.5);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(#1e3a5f, #0a1930);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid #2e5a8f;
+  font-weight: bold;
+  margin: 10px 0;
+  
+  &:hover {
+    background: linear-gradient(#2e5a8f, #1e3a5f);
+    text-decoration: none;
+  }
+}
+
+/* Framework diagram styling */
+.framework-levels {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  
+  .level {
+    padding: 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    
+    &.strategic {
+      background: #1e3a5f;
+    }
+    
+    &.operational {
+      background: #2e5a8f;
+    }
+    
+    &.tactical {
+      background: #3d85c6;
+    }
+  }
+}
+
+/* Navigation styling */
+#main-nav {
+  margin: 20px 0;
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: 8px;
+      
+      a {
+        display: block;
+        padding: 8px 12px;
+        border-left: 3px solid #1e3a5f;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        
+        &:hover {
+          border-left-color: #4a7dbd;
+          background: rgba(30, 58, 95, 0.3);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/* Animation effects */
+.scan-line {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #4a7dbd, transparent);
+  top: 0;
+  left: 0;
+  animation: scan 1.5s linear;
+  pointer-events: none;
+}
+
+@keyframes scan {
+  0% { top: 0; opacity: 0.8; }
+  100% { top: 100%; opacity: 0; }
+}
+
+/* Framework level animations */
+.level {
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  
+  &.active {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+}
+
+/* Cyber badge styling */
+.cyber-badge {
+  margin: 20px auto;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cyber-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  color: #4a7dbd;
+  text-align: center;
+  margin-top: 10px;
+}
