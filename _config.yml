@@ -1,6 +1,8 @@
 title: Center for Cyber Intelligence
 description: Defining the Future of Cyber Intelligence
 theme: jekyll-theme-midnight
+baseurl: "/centerforcyberintelligence.github.io"
+url: "https://centerforcyberintelligence.github.io"
 plugins:
 - jekyll-remote-theme
 - jekyll-sitemap

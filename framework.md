@@ -43,10 +43,10 @@ Organizations can implement the framework using a phased approach:
 4. **Integration** - Connect intelligence outputs to security operations and business functions
 5. **Maturation** - Continuously enhance capabilities through measurement and refinement
 
-[Download the Framework Guide](#)
+[Download the Framework Guide]({{ site.baseurl }}/downloads/framework_guide.pdf)
 
 ## Get Involved
 
 The Cyber Intelligence Framework is maintained as an open-source standard with contributions from practitioners across the industry. Join our community to help shape the future of cyber intelligence.
 
-[Join the Community](/join) 
+[Join the Community]({{ site.baseurl }}/join) 

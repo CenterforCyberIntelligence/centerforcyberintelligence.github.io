@@ -35,4 +35,4 @@ By joining CCI, you agree to uphold these values and contribute constructively t
 
 ---
 
-Ready to join? Have questions? [Contact us](/contact) to learn more about getting involved. 
+Ready to join? Have questions? [Contact us]({{ site.baseurl }}/contact) to learn more about getting involved. 
