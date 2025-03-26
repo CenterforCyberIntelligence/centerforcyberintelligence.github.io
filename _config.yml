@@ -11,6 +11,3 @@ plugins:
 - jekyll-archives
 
 theme: midnight
-
-paginate: 10
-paginate_path: "/page:num"
