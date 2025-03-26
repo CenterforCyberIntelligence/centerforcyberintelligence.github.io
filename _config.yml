@@ -9,5 +9,3 @@ plugins:
 - jekyll-paginate
 - jekyll-feed
 - jekyll-archives
-
-theme: midnight
