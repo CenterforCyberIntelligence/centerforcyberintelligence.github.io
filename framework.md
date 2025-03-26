@@ -5,29 +5,23 @@ title: Cyber Intelligence Framework
 
 # Cyber Intelligence Framework
 
-<div class="cyber-container">
-  <h2>A Comprehensive Approach to Modern Cyber Intelligence</h2>
-  <p>The Cyber Intelligence Framework (CIF) provides organizations with a structured approach to implementing effective cyber intelligence capabilities that align with their security goals and business objectives.</p>
-</div>
+## A Comprehensive Approach to Modern Cyber Intelligence
+
+The Cyber Intelligence Framework (CIF) provides organizations with a structured approach to implementing effective cyber intelligence capabilities that align with their security goals and business objectives.
 
 ## Framework Levels
 
-<div class="framework-levels">
-  <div class="level strategic">
-    <h3>Strategic Level</h3>
-    <p>Long-term intelligence focusing on organizational risks, threat landscapes, and future planning. Informs executive decision-making and security strategy.</p>
-  </div>
-  
-  <div class="level operational">
-    <h3>Operational Level</h3>
-    <p>Mid-term intelligence that supports campaign planning, resource allocation, and cross-functional coordination to address known and emerging threats.</p>
-  </div>
-  
-  <div class="level tactical">
-    <h3>Tactical Level</h3>
-    <p>Short-term, technical intelligence that enables immediate action by security operations teams to detect, prevent, and respond to active threats.</p>
-  </div>
-</div>
+### Strategic Level
+
+Long-term intelligence focusing on organizational risks, threat landscapes, and future planning. Informs executive decision-making and security strategy.
+
+### Operational Level
+
+Mid-term intelligence that supports campaign planning, resource allocation, and cross-functional coordination to address known and emerging threats.
+
+### Tactical Level
+
+Short-term, technical intelligence that enables immediate action by security operations teams to detect, prevent, and respond to active threats.
 
 ## Core Components
 
@@ -49,10 +43,10 @@ Organizations can implement the framework using a phased approach:
 4. **Integration** - Connect intelligence outputs to security operations and business functions
 5. **Maturation** - Continuously enhance capabilities through measurement and refinement
 
-<a href="#" class="cta-button">Download the Framework Guide</a>
+[Download the Framework Guide](#)
 
 ## Get Involved
 
 The Cyber Intelligence Framework is maintained as an open-source standard with contributions from practitioners across the industry. Join our community to help shape the future of cyber intelligence.
 
-<a href="/join" class="cta-button">Join the Community</a> 
+[Join the Community](/join) 

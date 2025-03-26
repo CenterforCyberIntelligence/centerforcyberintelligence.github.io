@@ -5,10 +5,9 @@ title: Join Us
 
 # Join the Center for Cyber Intelligence
 
-<div class="cyber-container">
-  <h2>Become Part of the Cyber Intelligence Community</h2>
-  <p>The Center for Cyber Intelligence welcomes practitioners, researchers, and organizations interested in advancing the field of cyber intelligence. Join our community to collaborate, contribute, and help shape industry standards.</p>
-</div>
+## Become Part of the Cyber Intelligence Community
+
+The Center for Cyber Intelligence welcomes practitioners, researchers, and organizations interested in advancing the field of cyber intelligence. Join our community to collaborate, contribute, and help shape industry standards.
 
 ## How to Get Involved
 
@@ -22,8 +21,7 @@ The Cyber Intelligence Framework is a community-driven project that benefits fro
 - Review and provide feedback on proposed updates
 - Help translate resources for global adoption
 
-<a href="https://github.com/CenterforCyberIntelligence" class="cta-button">Visit Our GitHub</a>
-
+[Visit Our GitHub](https://github.com/CenterforCyberIntelligence)
 
 ## Community Guidelines
 
@@ -37,4 +35,4 @@ By joining CCI, you agree to uphold these values and contribute constructively t
 
 ---
 
-Ready to join? Have questions? <a href="/contact">Contact us</a> to learn more about getting involved. 
+Ready to join? Have questions? [Contact us](/contact) to learn more about getting involved. 

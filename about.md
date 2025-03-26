@@ -5,11 +5,9 @@ title: About
 
 # About the Center for Cyber Intelligence
 
-<div class="cyber-container">
-  <h2>Advancing Cyber Intelligence Standards for a Secure Future</h2>
+## Advancing Cyber Intelligence Standards for a Secure Future
 
-  <p>The Center for Cyber Intelligence (CCI) is an open community dedicated to defining and advancing cyber intelligence as a discipline. Since our founding in 2019, we have focused on developing industry standards, sharing best practices, and empowering large and small organizations to integrate intelligence-driven security into their operations.</p>
-</div>
+The Center for Cyber Intelligence (CCI) is an open community dedicated to defining and advancing cyber intelligence as a discipline. Since our founding in 2019, we have focused on developing industry standards, sharing best practices, and empowering large and small organizations to integrate intelligence-driven security into their operations.
 
 ## Our Mission
 

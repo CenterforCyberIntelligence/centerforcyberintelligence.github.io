@@ -4,8 +4,7 @@ title: Resources
 ---
 
 # Resources
->**Coming Soon**
-
+> **Coming Soon**
 
 ## Latest Articles
 
