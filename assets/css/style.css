@@ -1,15 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* Enhanced cybersecurity theme with dark blues */
-body {
-  background: #0c1221;
-  color: #e0e0e0;
-}
-
-
 /* Enhanced cybersecurity theme with dark blues */
 body {
   background: #0c1221;
@@ -27,9 +15,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #3d85c6;
-  &:hover {
-    color: #66a3ff;
-  }
+}
+
+a:hover {
+  color: #66a3ff;
 }
 
 .wrapper {
@@ -61,11 +50,11 @@ a {
   border: 1px solid #2e5a8f;
   font-weight: bold;
   margin: 10px 0;
-  
-  &:hover {
-    background: linear-gradient(#2e5a8f, #1e3a5f);
-    text-decoration: none;
-  }
+}
+
+.cta-button:hover {
+  background: linear-gradient(#2e5a8f, #1e3a5f);
+  text-decoration: none;
 }
 
 /* Framework diagram styling */
@@ -74,54 +63,54 @@ a {
   flex-direction: column;
   gap: 10px;
   margin: 20px 0;
-  
-  .level {
-    padding: 15px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    
-    &.strategic {
-      background: #1e3a5f;
-    }
-    
-    &.operational {
-      background: #2e5a8f;
-    }
-    
-    &.tactical {
-      background: #3d85c6;
-    }
-  }
+}
+
+.framework-levels .level {
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.framework-levels .level.strategic {
+  background: #1e3a5f;
+}
+
+.framework-levels .level.operational {
+  background: #2e5a8f;
+}
+
+.framework-levels .level.tactical {
+  background: #3d85c6;
 }
 
 /* Navigation styling */
 #main-nav {
   margin: 20px 0;
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    
-    li {
-      margin-bottom: 8px;
-      
-      a {
-        display: block;
-        padding: 8px 12px;
-        border-left: 3px solid #1e3a5f;
-        transition: all 0.2s ease;
-        text-decoration: none;
-        
-        &:hover {
-          border-left-color: #4a7dbd;
-          background: rgba(30, 58, 95, 0.3);
-          text-decoration: none;
-        }
-      }
-    }
-  }
+}
+
+#main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li {
+  margin-bottom: 8px;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 8px 12px;
+  border-left: 3px solid #1e3a5f;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  border-left-color: #4a7dbd;
+  background: rgba(30, 58, 95, 0.3);
+  text-decoration: none;
 }
 
 /* Animation effects */
@@ -145,11 +134,11 @@ a {
 .level {
   transition: all 0.3s ease;
   opacity: 0.8;
-  
-  &.active {
-    opacity: 1;
-    transform: translateX(5px);
-  }
+}
+
+.level.active {
+  opacity: 1;
+  transform: translateX(5px);
 }
 
 /* Cyber badge styling */

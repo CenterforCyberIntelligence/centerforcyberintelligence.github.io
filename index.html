@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center for Cyber Intelligence</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div id="title">
+        <h1>Center for Cyber Intelligence</h1>
+        <p>Defining the Future of Cyber Intelligence</p>
+        
+        <!-- Cybersecurity visual element -->
+        <div class="cyber-badge">
+          <div class="cyber-shield">
+            <svg viewBox="0 0 100 100" width="64" height="64">
+              <path fill="#4a7dbd" d="M50,10 L10,30 L10,60 C10,70 20,85 50,95 C80,85 90,70 90,60 L90,30 L50,10 Z" />
+              <path fill="#0c1221" d="M50,20 L20,35 L20,55 C20,65 30,75 50,85 C70,75 80,65 80,55 L80,35 L50,20 Z" />
+              <path fill="#4a7dbd" d="M50,40 L40,45 L40,55 L50,60 L60,55 L60,45 L50,40 Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      
+      <nav id="main-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/framework">Framework</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="/join">Join Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="main-content">
+      <h1>Center for Cyber Intelligence</h1>
+      
+      <h2>Advancing Cyber Intelligence Standards for a Secure Future</h2>
+      
+      <div class="cyber-container">
+        <p>The Center for Cyber Intelligence (CCI) is an open community dedicated to defining and advancing cyber intelligence as a discipline. Since our founding in 2019, we have focused on developing industry standards, sharing best practices, and empowering organizations of all sizes to integrate intelligence-driven security into their operations.</p>
+        
+        <a href="/about" class="cta-button">Learn About Our Mission</a>
+      </div>
+      
+      <h2>The Cyber Intelligence Framework (CIF)</h2>
+      
+      <p>Cyber intelligence has evolved beyond government applications to become essential for private sector security. Our flagship initiative, the <strong>Cyber Intelligence Framework (CIF)</strong>, provides organizations with a structured approach to implementing effective intelligence capabilities across three critical levels:</p>
+      
+      <div class="framework-levels">
+        <div class="level strategic">Strategic Intelligence: Long-term planning and executive decision-making</div>
+        <div class="level operational">Operational Intelligence: Threat monitoring and security posture management</div>
+        <div class="level tactical">Tactical Intelligence: Day-to-day threat detection and response</div>
+      </div>
+      
+      <h2>A Vendor-Agnostic Community Approach</h2>
+      
+      <p>Unlike traditional cybersecurity vendors, CCI operates independently of commercial pressures. Our commitment to <strong>open collaboration, transparency, and accessibility</strong> ensures that organizations of all sizes can benefit from intelligence-driven security practices.</p>
+    </section>
+    
+    <footer>
+      <p>© 2025 Center for Cyber Intelligence. All rights reserved.</p>
+      <p class="cyber-text">Empowering Intelligence-Driven Security</p>
+    </footer>
+  </div>
+  
+  <!-- Security-themed animation effects -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add scanning effect to header
+      const header = document.querySelector('header');
+      setInterval(function() {
+        const scanLine = document.createElement('div');
+        scanLine.classList.add('scan-line');
+        header.appendChild(scanLine);
+        
+        setTimeout(function() {
+          scanLine.remove();
+        }, 1500);
+      }, 4000);
+      
+      // Highlight framework levels on scroll
+      const frameworkLevels = document.querySelectorAll('.level');
+      if (frameworkLevels.length > 0) {
+        window.addEventListener('scroll', function() {
+          frameworkLevels.forEach(function(level) {
+            if (isElementInViewport(level)) {
+              level.classList.add('active');
+            }
+          });
+        });
+      }
+      
+      function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+    });
+  </script>
+</body>
+</html> 
