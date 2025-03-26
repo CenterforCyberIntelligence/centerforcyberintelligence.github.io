@@ -1,0 +1,58 @@
+@import "{{ site.theme }}";
+
+/* Custom styles to ensure consistency across all pages */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #252525;
+  color: #eaeaea;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px dashed #b5e853;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header ul li a {
+  color: #b5e853;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1, h2, h3 {
+  color: #b5e853;
+}
+
+a {
+  color: #63c0f5;
+}
+
+footer {
+  border-top: 1px dashed #b5e853;
+  padding: 20px 0;
+  text-align: center;
+} 
